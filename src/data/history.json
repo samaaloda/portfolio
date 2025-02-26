@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Software Technical Team Lead",
+    "organisation": "HealthHatch",
+    "startDate": "Sept, 2024",
+    "endDate": "Present",
+    "experiences": ["Building an AI/ML tool in Python to process X-ray data and detect disorders.", "Establishing a friendly user-interface to input X-ray images, with AI-driven chatbot."],
+    "imageSrc": "history/healthhatch.png"
+  },
+  {
+    "role": "Wellness Coordinator",
+    "organisation": "McMaster Engineering Society",
+    "startDate": "May, 2024",
+    "endDate": "Present",
+    "experiences": ["Manage the Wellness Division of for over 7000 students.", "Lead a team of 5 executives to plan and market engaging events."],
+    "imageSrc": "history/MES.png"
+  },
+  {
+    "role": "Start Coding Mentor",
+    "organisation": "Start Coding",
+    "startDate": "Feb, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Mentoring 100+ kids of ages 10-14 on coding practices.",
+      "Provide required one-on-one support for each student"
+    ],
+    "imageSrc": "history/startcoding.jpg"
+  }
+]

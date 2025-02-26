@@ -1,0 +1,36 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+  grid-auto-flow: dense;
+  display: grid;
+  flex-wrap:wrap;
+  gap: 15px;
+  flex-direction: row;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr 1fr 1fr));
+  grid-template-rows: masonry;
+  
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  align-items: flex-start;
+  grid-auto-rows: min-content;
+}
+

@@ -46,9 +46,11 @@ export const Navbar = ({ darkMode, toggleTheme }) => {
               About</a>
           </li>
           <li>
+            <div>
             <a href="#experience">
               <img className={styles.image} src="assets/nav/experience.png"></img>
               Experience</a>
+              </div>
           </li>
           <li>
             <a href="#projects">

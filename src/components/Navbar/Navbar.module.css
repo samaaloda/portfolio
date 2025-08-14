@@ -154,3 +154,14 @@
   width:20px;
   height:20px;
 }
+.menuItems li a {
+  display: flex;
+  align-items: center;
+  gap: 6px; 
+  text-decoration: none;
+}
+
+.image {
+  width: 20px; 
+  height: 20px;
+}

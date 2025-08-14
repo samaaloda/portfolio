@@ -10,5 +10,7 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 - **Domain:** GoDaddy  
 
 ### Install & Start Commands
-```npm install
-```npm run dev
+```
+npm install
+```
+npm run dev

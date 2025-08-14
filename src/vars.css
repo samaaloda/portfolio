@@ -4,9 +4,16 @@
   --color-primary: #576cbc;
   --color-secondary: #19376d;
   --color-dark: #0b2447;
-  --color-bg: linear-gradient(to right, #5170ff, #ff66c4);
+  --color-bg: linear-gradient(to right, #acbbfd, #ffaade);
 
   /* Fonts */
   --font-montserrat: "MontSerrat";
 }
 
+.dark-mode {
+  --color-text: #000;
+  --color-primary: #ff66c4;
+  --color-secondary: #5170ff;
+  --color-dark: #0b2447;
+  --color-bg: linear-gradient(to right, #19376d, #576cbc); /*#5170ff, #ff66c4*/
+}

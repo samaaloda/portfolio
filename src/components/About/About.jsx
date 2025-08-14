@@ -17,27 +17,27 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Full Stack Development</h3>
+              <h3>Education & Academics</h3>
               <p>
-              Experienced in HTML/CSS, JavaScript, Python, Java, and C by developing object-oriented software, user interface, and data pipelines.
+              Key coursework at McMaster: Machine Learning & AI Applications, Biomedical Data Analysis, Data Structures & Algorithms, Software Testing, Databases, Software Security
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Software Testing</h3>
+              <h3>Fun Facts About Me</h3>
               <p>
-              Experienced in software testing, development and troubleshooting, in individual and team-setting environments.
-              </p>
+              I sew my own clothes and love exploring <bold>fashion history</bold>. I speak <bold>four languages</bold>: English, Arabic, French, and Turkish.
+            </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>Interpersonally Skilled</h3>
+              <h3>What I'm Looking For</h3>
               <p>
-              Strong interpersonal skills, including: leadership, communication, organization and time-management
+              Open to Summer 2026 internships or research positions in software engineering, machine learning, and biomedical technology. Passionate about projects that combine innovation with real-world impact.
               </p>
             </div>
           </li>

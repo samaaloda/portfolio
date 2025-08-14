@@ -1,16 +1,24 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Navbar = () => {
+export const Navbar = ({ darkMode, toggleTheme }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
-        Sama Al-Oda
-      </a>
+      <div className={styles.titleRow}>
+        <a className={styles.title} href="/">
+          Sama Al-Oda
+        </a>
+        <button onClick={toggleTheme} className={styles.themeToggle}>
+          <img 
+            className={styles.toggleIcon}
+            src={darkMode ? getImageUrl("nav/brightness.png") : getImageUrl("nav/night-mode.png")}
+            alt="toggle theme"
+          />
+        </button>
+      </div>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -27,17 +35,32 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="https://drive.google.com/file/d/1XfEpQ8iwQ7FRdjc0ewb9CQP1YKu24IB3/view?usp=sharing">
+              <img className={styles.image} src="assets/nav/resume.png"></img>
+              Resume</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            
+            <a href="#about">
+              <img className={styles.image} src="assets/nav/user.png"></img>
+              About</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#experience">
+              <img className={styles.image} src="assets/nav/experience.png"></img>
+              Experience</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#projects">
+              <img className={styles.image} src="assets/nav/projects.png"></img>
+              Projects</a>
           </li>
+          <li>
+            <a href="#contact">
+              <img className={styles.image} src="assets/nav/contact.png"></img>
+              Contact</a>
+          </li>
+          
         </ul>
       </div>
     </nav>

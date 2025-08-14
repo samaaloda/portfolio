@@ -12,3 +12,20 @@
   height: 100%;
   overflow: hidden;
 }
+
+
+.light{
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: linear-gradient(to right, #acbbfd, #ffaade);
+}
+/*PICK COLOURS*/
+.dark{
+   --color-text: #ffffff;
+  --color-primary: #ff66c4;
+  --color-secondary: #5170ff;
+  --color-dark: #0b2447;
+  --color-bg: linear-gradient(to right, #19376d, #576cbc); /*#5170ff, #ff66c4*/
+}

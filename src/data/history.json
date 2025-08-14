@@ -1,28 +1,56 @@
-[
+[ {
+    "role": "Design Projects in Engineering Teaching Assistant",
+    "organisation": "McMaster University Faculty of Engineering",
+    "startDate": "Aug, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Guided students in design labs covering CAD, programming, and prototyping.",
+      "Reviewed reports, code, and presentations, giving constructive feedback."
+    ],
+    "imageSrc": "history/mac_eng.png"
+  },
   {
-    "role": "Software Technical Team Lead",
+  "role": "Web Developer",
+    "organisation": "Ibtikar Toronto",
+    "startDate": "Aug, 2025",
+    "endDate": "Present",
+    "experiences": ["Built and maintained a responsive web platform for 1,000+ users using Next.js, React, and TailwindCSS.", "Integrated APIs to deliver real-time, interactive features."],
+    "imageSrc": "history/ibtikar.png"
+  },
+  {"role": "Machine Learning & App Development Research Assistant",
+    "organisation": "Didar Lab, McMaster University",
+    "startDate": "May, 2025",
+    "endDate": "Aug, 2025",
+    "experiences": ["Trained classification models with improved accuracy through preprocessing and tuning.", "Designed and launched a SwiftUI mobile app with authentication, real-time syncing, and Supabase API.", "Created UI/UX designs in Figma and demos for research publication."],
+    "imageSrc": "history/mac_eng.png"
+  },
+  {
+    "role": "Software Technical Team Member",
     "organisation": "HealthHatch",
     "startDate": "Sept, 2024",
-    "endDate": "Present",
+    "endDate": "May, 2025",
     "experiences": ["Building an AI/ML tool in Python to process X-ray data and detect disorders.", "Establishing a friendly user-interface to input X-ray images, with AI-driven chatbot."],
     "imageSrc": "history/healthhatch.png"
   },
   {
     "role": "Wellness Coordinator",
-    "organisation": "McMaster Engineering Society",
+    "organisation": "Start Coding",
     "startDate": "May, 2024",
-    "endDate": "Present",
-    "experiences": ["Manage the Wellness Division of for over 7000 students.", "Lead a team of 5 executives to plan and market engaging events."],
+    "endDate": "May, 2025",
+    "experiences": [
+      "Led wellness initiatives for 7,000+ students.",
+      "Managed a team of five to plan and promote events."
+    ],
     "imageSrc": "history/MES.png"
   },
   {
     "role": "Start Coding Mentor",
     "organisation": "Start Coding",
     "startDate": "Feb, 2025",
-    "endDate": "Present",
+    "endDate": "Feb, 2025",
     "experiences": [
       "Mentoring 100+ kids of ages 10-14 on coding practices.",
-      "Provide required one-on-one support for each student"
+      "Provide required one-on-one support for each student."
     ],
     "imageSrc": "history/startcoding.jpg"
   }

@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: rgba(55, 31, 134, 0.6);
+  background-color: rgba(55, 31, 134, 1);
   border-radius: 15px;
   padding: 73px;
   margin-top: 129px;
@@ -33,7 +33,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 25px;
 }
 
 .aboutItem {
@@ -63,7 +63,7 @@
 }
 
 .aboutItem p {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 830px) {
@@ -82,7 +82,7 @@
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin-top: 15px;
   }
 
   .aboutItem {

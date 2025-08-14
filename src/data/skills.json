@@ -1,7 +1,23 @@
 [
+{
+    "title": "SwiftUI",
+    "imageSrc": "skills/swiftui.png"
+  },
   {
-    "title": "GitHub",
-    "imageSrc": "skills/github.png"
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
   },
   {
     "title": "Python",
@@ -24,20 +40,14 @@
     "imageSrc": "skills/html.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
-  },
-  {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
+  },{
+    "title": "TensorFlow",
+    "imageSrc": "skills/tensorflow.png"
+  },{
+    "title": "PyTorch",
+    "imageSrc": "skills/pytorch.png"
   }
   
 ]

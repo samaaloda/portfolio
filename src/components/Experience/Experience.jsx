@@ -33,7 +33,10 @@ export const Experience = () => {
           })}
         </ul>
         </div>
+        <br></br>
+        <h2 className={styles.title}>Skills</h2>
         <div className={styles.content}>
+        
         <div className={styles.skills}>
         {skills.map((skill, id) => (
           <div key={id} className={styles.box}>

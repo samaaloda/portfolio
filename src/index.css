@@ -13,3 +13,38 @@
 html {
   scroll-behavior: smooth;
 }
+
+.dot-reveal-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none; /* keep everything clickable */
+  z-index: 0;          /* behind your content */
+
+  /* Default CSS vars */
+  --mx: -1000px;   /* offscreen until mouse moves */
+  --my: -1000px;
+  --reveal-r: 120px;
+
+  /* Mask: black/transparent = hidden (the hole), white = visible (dots) */
+  /* Standard */
+  mask-image: radial-gradient(
+    circle var(--reveal-r) at var(--mx) var(--my),
+    transparent 0 var(--reveal-r),
+    #fff calc(var(--reveal-r) + 1px)
+  );
+  mask-mode: match-source;
+  mask-repeat: no-repeat;
+
+  /* WebKit */
+  -webkit-mask-image: radial-gradient(
+    circle var(--reveal-r) at var(--mx) var(--my),
+    transparent 0 var(--reveal-r),
+    #fff calc(var(--reveal-r) + 1px)
+  );
+  -webkit-mask-repeat: no-repeat;
+}
+
+/* Optional: dark page background so dots pop */
+body {
+  background: #0b0b0c; /* or your theme color */
+}

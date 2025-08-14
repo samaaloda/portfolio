@@ -8,6 +8,14 @@
     "source": "https://github.com/subhaazrin/ElleHacksKareBear"
   },
   {
+    "title": "SkipTheLine",
+    "imageSrc": "projects/skiptheline.png",
+    "description": "Enqueues you to rides instead of waiting in line. Creates optimized schedule based on reduced waiting times.",
+    "skills": ["JavaScript", "ReactNative","Expo","Google Cloud"],
+    "demo": "https://drive.google.com/file/d/1wdlzpf0bEPcjM5YJszJm5pSDCu18E4qL/view",
+    "source": "https://github.com/samaaloda/SkipTheLine"
+  },
+  {
     "title": "Personal Portfolio",
     "imageSrc": "projects/portfolio.png",
     "description": "You're looking at it! Built with Vite and React, structured with JavaScript code, then finally beautifully designed using HTML and CSS. ",
@@ -23,25 +31,11 @@
     "source": "https://www.notion.so/Project-3-MealMate-159517828da44426876fa2363551a5f7"
   },
   {
-    "title": "Truth Table Generator",
-    "imageSrc": "projects/truthtablegen.png",
-    "description": "Developed a truth table generator, built and evaluated using binary tree structures. Created a user-interface using GTK library.",
-    "skills": ["C", "Bash", "GTK"],
-    "source": "https://github.com/samaaloda/truthtable-gen"
-  },
-  {
-    "title": "TrappedHearts",
-    "imageSrc": "projects/trappedhearts.png",
-    "description": "WINNER @ Uoft Hackathon 2024. Built using Arduino circuitry and C++ code to pump the heart as needed for those with heart pump issues.",
-    "skills": [ "C++", "Arduino"],
-    "source": "https://www.notion.so/Trapped-Hearts-17e4bfee572980e99ea8ee0adc56e849"
-  },
-  {
-    "title": "SkipTheLine",
-    "imageSrc": "projects/skiptheline.png",
-    "description": "Enqueues you to rides instead of waiting in line. Creates optimized schedule based on reduced waiting times.",
-    "skills": ["JavaScript", "ReactNative","Expo","Google Cloud"],
-    "demo": "https://drive.google.com/file/d/1wdlzpf0bEPcjM5YJszJm5pSDCu18E4qL/view",
-    "source": "https://github.com/samaaloda/SkipTheLine"
+    "title": "X-rAI",
+    "imageSrc": "projects/xrai.png",
+    "description": "Built a Python-based ML model to detect conditions from X-rays with 90%+ accuracy. Implemented image preprocessing, model training, and a user-friendly interface for instant results.",
+    "skills": ["TensorFlow", "Python", "FastAPI"],
+    "demo": "https://drive.google.com/file/d/1WTJVTXtD6kM2K3iB4HDoXQS_X2axzCcz/view",
+    "source": "https://github.com/samaaloda/X-rAI"
   }
 ]

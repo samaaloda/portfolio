@@ -8,3 +8,7 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 - **Styling:** CSS Modules  
 - **Hosting:** GitHub Pages  
 - **Domain:** GoDaddy  
+
+### Install & Start Commands
+'''npm install 
+'''npm run dev

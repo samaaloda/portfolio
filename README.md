@@ -12,5 +12,5 @@ Welcome to my personal portfolio! This website showcases my projects, skills, an
 ### Install & Start Commands
 ```
 npm install
-```
 npm run dev
+```

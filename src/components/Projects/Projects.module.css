@@ -5,6 +5,7 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
+  width: 80vw;
   /* Remove grid and flex properties */
   /* display: grid; */
   /* grid-auto-flow: dense; */

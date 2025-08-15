@@ -36,30 +36,30 @@ export const Navbar = ({ darkMode, toggleTheme }) => {
         >
           <li>
             <a href="https://drive.google.com/file/d/1XfEpQ8iwQ7FRdjc0ewb9CQP1YKu24IB3/view?usp=sharing">
-              <img className={styles.image} src="nav/resume.png"></img>
+              <img className={styles.image} src={getImageUrl("nav/resume.png")}></img>
               Resume</a>
           </li>
           <li>
             
             <a href="#about">
-              <img className={styles.image} src="nav/user.png"></img>
+              <img className={styles.image} src={getImageUrl("nav/user.png")}></img>
               About</a>
           </li>
           <li>
             <div>
             <a href="#experience">
-              <img className={styles.image} src="nav/experience.png"></img>
+              <img className={styles.image} src={getImageUrl("nav/experience.png")}></img>
               Experience</a>
               </div>
           </li>
           <li>
             <a href="#projects">
-              <img className={styles.image} src="nav/projects.png"></img>
+              <img className={styles.image} src={getImageUrl("nav/projects.png")}></img>
               Projects</a>
           </li>
           <li>
             <a href="#contact">
-              <img className={styles.image} src="nav/contact.png"></img>
+              <img className={styles.image} src={getImageUrl("nav/contact.png")}></img>
               Contact</a>
           </li>
           

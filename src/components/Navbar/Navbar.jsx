@@ -35,7 +35,7 @@ export const Navbar = ({ darkMode, toggleTheme }) => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="https://drive.google.com/file/d/1XfEpQ8iwQ7FRdjc0ewb9CQP1YKu24IB3/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1d2lRn-IFk9olKbSpQm-htkPIUhYPZ3U3/view?usp=sharing">
               <img className={styles.image} src={getImageUrl("nav/resume.png")}></img>
               Resume</a>
           </li>

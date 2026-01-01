@@ -1,5 +1,14 @@
-[ {
-    "role": "Design Projects in Engineering Teaching Assistant",
+[
+
+  {"role": "Machine Learning & App Development Research Assistant",
+    "organisation": "Didar Lab, McMaster University",
+    "startDate": "May, 2025",
+    "endDate": "Present",
+    "experiences": ["Trained classification models with improved accuracy through preprocessing and tuning.", "Designed and launched a SwiftUI mobile app with authentication, real-time syncing, and Supabase API.", "Created UI/UX designs in Figma and demos for research publication."],
+    "imageSrc": "history/mac_eng.png"
+  },
+   {
+    "role": "Design Projects in Engineering Teaching Assistant (ENGINEER 1P13/2PX3)",
     "organisation": "McMaster University Faculty of Engineering",
     "startDate": "Aug, 2025",
     "endDate": "Present",
@@ -10,19 +19,28 @@
     "imageSrc": "history/mac_eng.png"
   },
   {
+  "role": "AI Team Lead",
+    "organisation": "Medical Technology Team",
+    "startDate": "Sept, 2025",
+    "endDate": "Present",
+    "experiences": ["Leading and mentoring a group of 10 software team members on an NLP project.", "Developing an API to process medical documents and extract key information."],
+    "imageSrc": "history/medt.png"
+  },
+  {
+  "role": "Software Technical Team Member",
+    "organisation": "Biomedical Engineering Technical Team",
+    "startDate": "Sept, 2025",
+    "endDate": "Present",
+    "experiences": ["Building a smart rehabilitation knee sleeve with embedded software, sensors and machine learning components."],
+    "imageSrc": "history/BMETT.png"
+  },
+  {
   "role": "Web Developer",
     "organisation": "Ibtikar Toronto",
     "startDate": "Aug, 2025",
     "endDate": "Present",
     "experiences": ["Built and maintained a responsive web platform for 1,000+ users using Next.js, React, and TailwindCSS.", "Integrated APIs to deliver real-time, interactive features."],
     "imageSrc": "history/ibtikar.png"
-  },
-  {"role": "Machine Learning & App Development Research Assistant",
-    "organisation": "Didar Lab, McMaster University",
-    "startDate": "May, 2025",
-    "endDate": "Aug, 2025",
-    "experiences": ["Trained classification models with improved accuracy through preprocessing and tuning.", "Designed and launched a SwiftUI mobile app with authentication, real-time syncing, and Supabase API.", "Created UI/UX designs in Figma and demos for research publication."],
-    "imageSrc": "history/mac_eng.png"
   },
   {
     "role": "Software Technical Team Member",

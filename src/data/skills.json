@@ -4,8 +4,8 @@
     "imageSrc": "skills/swiftui.png"
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "HTML/CSS",
+    "imageSrc": "skills/html.png"
   },
   {
     "title": "React",
@@ -35,10 +35,7 @@
     "title": "MATLAB",
     "imageSrc": "skills/matlab.png"
   },
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
+  
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"

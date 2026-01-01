@@ -1,5 +1,12 @@
 [
   {
+    "title": "Seismo",
+    "imageSrc": "projects/seismo.png",
+    "description": "WINNER @ MEC Programming 2025. Mobile app designed to contact loved ones automatically with in-phone sensor-based detection during natural disasters.",
+    "skills": ["Swift", "Twilio", "Node", "Supabase"],
+    "source": "https://github.com/samaaloda/What-the-MEC"
+  },
+  {
     "title": "KareBear",
     "imageSrc": "projects/karebear.png",
     "description": "WINNER @ ElleHacks 2025. AI Plushie helping children to navigate their emotions using image  and speech detection.",

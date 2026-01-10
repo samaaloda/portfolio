@@ -7,11 +7,15 @@
   justify-content: space-between;
   z-index: 1000000000000;
   margin: 0 10%;
-  background:linear-gradient(135deg, #5f1f5a, #742861, #5f1f5a); /*change*/
+  background: rgba(255, 255, 255, 0.1); /* Glassmorphism background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
   margin-top: 1%;
   padding: 15px;
   border-radius: 20px;
   width: 80%;
+  transition: padding 0.3s ease, margin-top 0.3s ease, box-shadow 0.3s ease;
 }
 
 
@@ -20,12 +24,11 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
-  transition: scale 0.5s ease-in-out;
+  transition: scale 0.5s ease-in-out, font-size 0.3s ease;
 }
 
 .title:hover {
-  scale: 0.9;
-  
+  scale: 1.05;
 }
 
 .menuBtn {
@@ -34,8 +37,7 @@
 }
 
 .menuBtn:hover {
-  scale: 0.9;
-  
+  scale: 1.1;
 }
 
 .menu {
@@ -53,16 +55,21 @@
   font-size: 20px;
   color: var(--color-text);
   text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, font-size 0.3s ease, padding 0.3s ease;
+}
+
+.menuItems a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .menuItems li{
-  transition: scale 0.7s ease-in-out;
-  
+  transition: transform 0.3s ease-in-out;
 }
 
 .menuItems li:hover{
-  scale: 0.95;
-  
+  transform: translateY(-2px);
 }
 
 @media screen and (max-width: 1300px) {
@@ -96,14 +103,11 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(
-      0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
-    );
+    background: rgba(255, 255, 255, 0.1); /* Glassmorphism background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
     padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
   }
 
   .menuOpen {
@@ -164,4 +168,36 @@
 .image {
   width: 20px; 
   height: 20px;
+}
+
+.dark .navbar {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.dark .menuItems a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1300px) {
+  .dark .menuItems {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+}
+
+/* Scrolled state */
+.navbar.scrolled {
+  margin-top: 0;
+  padding: 8px 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar.scrolled .title {
+  font-size: 22px;
+}
+
+.navbar.scrolled .menuItems a {
+  font-size: 18px;
+  padding: 6px 10px;
 }

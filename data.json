@@ -1,0 +1,70 @@
+{
+  "personal_info": {
+    "name": "Sama Al-Oda",
+    "tagline": "I build machine learning systems at the intersection of software infrastructure, biomedical applications, and iOS edge intelligence.",
+    "email": "alodas@mcmaster.ca",
+    "linkedin": "https://www.linkedin.com/in/sama-al-oda/",
+    "github": "https://github.com/samaaloda",
+    "resume_url": "/Sama_Al-Oda_Resume.pdf"
+  },
+  "education": {
+    "institution": "McMaster University",
+    "degree": "Bachelor of Software Engineering, Double Major with Biomedical Engineering",
+    "graduation_date": "May 2028",
+    "gpa": "3.96"
+  },
+  "experience": [
+    {
+      "title": "Machine Learning Engineering Intern (CyberDome / R&D)",
+      "company": "Nokia",
+      "location": "Ottawa, ON",
+      "dates": "May 2026 - Aug 2026",
+      "technologies": ["Python", "Kubernetes", "Docker", "Helm", "Jenkins", "Grafana"],
+      "bullets": [
+        "Developed ML-driven anomaly detection services for Nokia NetGuard Endpoint Detection and Response (NEDR), analyzing endpoint and network telemetry to support enterprise-scale threat detection.",
+        "Built and deployed containerized ML microservices using Kubernetes, Docker, Podman, and Helm.",
+        "Implemented Jenkins and GitLab CI/CD workflows for automated testing, validation, and deployment while developing Grafana dashboards monitoring 100,000+ endpoints."
+      ]
+    },
+    {
+      "title": "Machine Learning & Software Developer Intern",
+      "company": "Didar Lab / FendX Technologies",
+      "location": "Hamilton, ON",
+      "dates": "May 2025 - Apr 2026",
+      "technologies": ["PyTorch", "TensorFlow", "Swift", "AWS", "PostgreSQL"],
+      "bullets": [
+        "Architected scalable cloud-based ML applications utilizing PyTorch and TensorFlow, engineering robust inference services through AWS-backed REST APIs (sub-200ms latency).",
+        "Fine-tuned transformer-based and computer vision architectures using Hugging Face.",
+        "Engineered cross-platform mobile apps for iOS and Android using Swift and Gradle, integrating CreateML, PostgreSQL, and Firebase.",
+        "Designed automated computer vision detection pipelines for high-throughput clinical analysis."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "VALID: Multimodal Predictive AI",
+      "image": "valid.png",
+      "awards": "CUCAI Responsible AI Award",
+      "technologies": ["BERT", "XGBoost", "FastAPI"],
+      "description": "Won the Responsible AI Award at CUCAI 2026 for leading a team of 10 to develop a multimodal ML framework for advanced decision support, achieving 91% precision and 88% macro-recall on 120,000+ records. Architected a high-performance NLP pipeline using a BERT-based transformer deployed via a FastAPI gateway."
+    },
+    {
+      "name": "X-rAI: Computer Vision Fracture Platform",
+      "image": "x-rai.png",
+      "technologies": ["TensorFlow", "React.js", "Flask", "AWS"],
+      "description": "Developed a TensorFlow-based computer vision model trained on large-scale image datasets, deployed via AWS S3. Built the React.js frontend and Flask backend featuring an integrated LLaMA-powered chatbot for automated report generation."
+    },
+    {
+      "name": "Disaster Detection App",
+      "image": "disaster-detection.png",
+      "awards": "MEC 2nd Place",
+      "technologies": ["Swift", "iOS", "REST APIs", "Twilio"],
+      "description": "Developed an iOS application leveraging on-device sensors and a disaster dataset API to detect hazardous events and trigger emergency alerts in real time with < 5s detection latency. Integrated Twilio SMS for instant offline notifications."
+    }
+  ],
+  "skills": {
+    "Machine Learning": ["PyTorch", "TensorFlow", "Hugging Face", "BERT", "OpenCV", "CreateML"],
+    "Infrastructure": ["Kubernetes", "Docker", "Helm", "Jenkins", "AWS", "Grafana"],
+    "Software": ["Python", "Swift", "FastAPI", "React.js", "PostgreSQL"]
+  }
+}

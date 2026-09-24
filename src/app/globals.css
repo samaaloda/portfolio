@@ -2,24 +2,30 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+/* Day — soft lilac */
 :root {
-  --background: #ffffff;
-  --foreground: #0a0a0a;
-  --muted: #737373;
-  --border: #e5e5e5;
+  --background: #f4eef9;
+  --foreground: #1f1235;
+  --muted: #6b5a82;
+  --border: #d8c8ec;
   --surface: #ffffff;
-  --surface-muted: #fafafa;
-  --accent: #191970;
+  --surface-muted: #ebe0f5;
+  --accent: #6b21a8;
+  --accent-soft: #c084fc;
+  --glow: rgba(147, 51, 234, 0.18);
 }
 
+/* Night — deep purple */
 .dark {
-  --background: #0a0a0a;
-  --foreground: #fafafa;
-  --muted: #a3a3a3;
-  --border: #262626;
-  --surface: #171717;
-  --surface-muted: #1a1a1a;
-  --accent: #7b8cde;
+  --background: #0f0618;
+  --foreground: #f3e8ff;
+  --muted: #b39dcc;
+  --border: #3b2a55;
+  --surface: #1a0f2e;
+  --surface-muted: #24153d;
+  --accent: #c084fc;
+  --accent-soft: #a855f7;
+  --glow: rgba(168, 85, 247, 0.22);
 }
 
 @theme inline {
@@ -30,16 +36,25 @@
   --color-surface: var(--surface);
   --color-surface-muted: var(--surface-muted);
   --color-accent: var(--accent);
-  --font-sans: var(--font-inter);
+  --color-accent-soft: var(--accent-soft);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), system-ui, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
 }
 
 ::selection {
   background-color: var(--accent);
   color: #ffffff;
+}
+
+.ambient-bg {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 15% -10%, var(--glow), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 20%, var(--glow), transparent 50%);
 }

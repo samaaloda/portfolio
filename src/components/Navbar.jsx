@@ -12,17 +12,18 @@ export default function Navbar() {
   const { name, resume_url } = portfolio.personal_info;
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-border/80 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-3xl items-center justify-between px-6 py-4">
         <a
           href="#"
-          className="text-sm font-semibold tracking-tight text-foreground transition-colors hover:text-accent"
+          className="font-[family-name:var(--font-display)] text-base font-semibold tracking-tight text-foreground transition-colors hover:text-accent"
         >
           {name.split(" ")[0]}
+          <span className="text-accent">.</span>
         </a>
 
-        <div className="flex items-center gap-3 sm:gap-4">
-          <ul className="flex items-center gap-4 sm:gap-6">
+        <div className="flex items-center gap-3 sm:gap-5">
+          <ul className="flex items-center gap-4 sm:gap-5">
             {links.map(({ href, label }) => (
               <li key={href}>
                 <a

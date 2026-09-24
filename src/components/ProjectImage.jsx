@@ -15,7 +15,7 @@ export default function ProjectImage({ filename, alt }) {
         className="flex aspect-video w-full items-center justify-center border-b border-border bg-surface-muted"
         aria-hidden="true"
       >
-        <ImageIcon className="h-6 w-6 text-neutral-400 dark:text-neutral-600" strokeWidth={1.5} />
+        <ImageIcon className="h-6 w-6 text-muted" strokeWidth={1.5} />
       </div>
     );
   }

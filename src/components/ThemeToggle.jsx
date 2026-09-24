@@ -5,18 +5,25 @@ import { useTheme } from "./ThemeProvider";
 
 export default function ThemeToggle() {
   const { theme, toggleTheme, mounted } = useTheme();
+  const isDark = mounted ? theme === "dark" : true;
 
   return (
     <button
       type="button"
       onClick={toggleTheme}
-      aria-label={theme === "light" ? "Switch to dark mode" : "Switch to light mode"}
-      className="rounded-md p-1.5 text-neutral-600 transition-colors hover:text-accent dark:text-neutral-400"
+      aria-label={isDark ? "Switch to daytime" : "Switch to nighttime"}
+      className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface-muted px-2.5 py-1 text-xs font-medium text-muted transition-colors hover:border-accent hover:text-accent"
     >
-      {mounted && theme === "dark" ? (
-        <Sun className="h-4 w-4" strokeWidth={1.5} />
+      {isDark ? (
+        <>
+          <Sun className="h-3.5 w-3.5" strokeWidth={1.75} />
+          <span className="hidden sm:inline">Day</span>
+        </>
       ) : (
-        <Moon className="h-4 w-4" strokeWidth={1.5} />
+        <>
+          <Moon className="h-3.5 w-3.5" strokeWidth={1.75} />
+          <span className="hidden sm:inline">Night</span>
+        </>
       )}
     </button>
   );

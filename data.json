@@ -1,9 +1,8 @@
 {
   "personal_info": {
     "name": "Sama Al-Oda",
-    "tagline": "I build machine learning systems where software infrastructure, biomedical apps, and on-device intelligence meet — and I ship them.",
-    "email": "alodas@mcmaster.ca",
-    "phone": "+1 (647) 891-7557",
+    "tagline": "I build software systems where infrastructure, biomedical apps, and on-device intelligence meet — and I ship them.",
+    "email": "samaaloda27@gmail.ca",
     "linkedin": "https://www.linkedin.com/in/sama-al-oda/",
     "github": "https://github.com/samaaloda",
     "resume_url": "/Sama_Al-Oda_Resume.pdf"
@@ -16,59 +15,59 @@
   },
   "experience": [
     {
-      "title": "Machine Learning Engineering Intern (CyberDome / R&D)",
+      "title": "Software Engineering Intern (CyberDome / R&D)",
       "company": "Nokia",
       "location": "Ottawa, ON",
       "dates": "May 2026 – Aug 2026",
-      "technologies": ["C", "Python", "eBPF", "Kubernetes", "OpenShift", "Docker", "Helm", "Jenkins", "Ansible"],
+      "technologies": ["C", "Python", "Kubernetes", "Docker", "Helm", "Jenkins", "Ansible"],
       "bullets": [
-        "Productionized a real-time behavioral ML security system, debugging its C/eBPF telemetry layer and reducing anomaly alerts from 580+ alerts/s to approximately 1 alert/s with zero reported kernel-event loss.",
-        "Owned the system’s end-to-end MLOps lifecycle, automating builds, air-gapped packaging, testing, and deployment of distributed ML services across Kubernetes and OpenShift.",
-        "Built a secure observability pipeline connecting C/Python agents to enterprise SIEM systems, resolving networking, mTLS, and routing failures across four deployment configurations."
+        "Root-caused a production alert flood to bad live telemetry, then fixed the C collector so false alarms dropped from 580+/s to ∼1/s with no lost events – turning an unusable detector back into a reliable signal.",
+        "Debugged a silent telemetry failure where services appeared healthy but logs never reached monitoring, then validated end-to-end delivery across four deployment setups to catch failures before release.",
+        "Closed the loop from commit → image → install bundle, automating branch packaging and ensuring offline installs.",
+        "Designed a backup and recovery pipeline around a storage limit that blocked the usual approach, then proved backup → wipe → restore across deployments so learned system state could be recovered reliably instead of rebuilt from scratch."
       ]
     },
     {
-      "title": "Machine Learning & Software Developer Intern",
+      "title": "Software Developer Intern",
       "company": "Didar Lab / FendX Technologies",
       "location": "Hamilton, ON",
       "dates": "May 2025 – Apr 2026",
-      "technologies": ["PyTorch", "TensorFlow", "Swift", "AWS", "PostgreSQL"],
+      "technologies": ["Python", "Swift", "AWS", "PostgreSQL", "REST APIs"],
       "bullets": [
-        "Architected and deployed scalable cloud-based ML applications utilizing PyTorch and TensorFlow, engineering robust inference services through AWS-backed REST APIs to consistently achieve sub-200ms response latency.",
-        "Fine-tuned advanced transformer-based and computer vision architectures using Hugging Face, leveraging large-scale multimodal datasets to significantly enhance the accuracy and reliability of predictive analytical models.",
-        "Engineered robust cross-platform mobile applications for iOS and Android environments using Swift and Gradle, integrating CreateML, PostgreSQL, Supabase, and Firebase to support concurrent multi-user ML workflows.",
-        "Designed and implemented automated computer vision detection pipelines, facilitating high-throughput data analysis and accelerating the transition of complex research prototypes into reliable enterprise-grade software solutions."
+        "Shipped AWS-backed REST APIs for concurrent mobile clients, covering authentication, session handling, and persistence while maintaining typical request latency under 200ms.",
+        "Built and maintained iOS and Android clients in Swift and Gradle, integrating PostgreSQL, Supabase, and Firebase to keep multi-user workflows consistent across devices and across the full client-to-backend data flow.",
+        "Turned research prototypes into product-ready services by wrapping inference behind APIs, automating data-processing pipelines, and hardening the path from notebook experiments to deployed software used in real-world mobile workflows."
       ]
     }
   ],
   "projects": [
     {
-      "name": "VALID: Multimodal Predictive AI",
+      "name": "VALID: Decision-Support Platform",
       "image": "valid.png",
       "awards": "CUCAI Responsible AI Award",
-      "technologies": ["BERT", "XGBoost", "FastAPI"],
-      "description": "Won the Responsible AI Award at CUCAI 2026 for leading a team of 10 to develop a multimodal ML framework for advanced decision support, achieving 91% precision and 88% macro-recall on complex datasets of over 120,000 unstructured text records. Architected a high-performance NLP pipeline using a BERT-based transformer for dynamic semantic label extraction, deploying the ensemble model (XGBoost, MLP, Random Forest) via a FastAPI RESTful gateway."
+      "technologies": ["Python", "FastAPI", "BERT", "XGBoost"],
+      "description": "Led a 10-person team to ship a multimodal decision-support backend, winning CUCAI 2026’s Responsible AI Award with 91% precision and 88% macro-recall on 120k+ unstructured records. Designed a FastAPI gateway around a BERT labeling pipeline and an ensemble of XGBoost, MLP, and Random Forest models, exposing versioned REST endpoints for downstream clients."
     },
     {
       "name": "Disaster Detection App",
       "image": "disaster-detection.png",
       "awards": "MEC 2nd Place",
       "technologies": ["Swift", "iOS", "REST APIs", "Twilio"],
-      "description": "Developed an iOS application leveraging on-device sensors and a disaster dataset API to detect hazardous events and trigger emergency alerts in real time with <5s detection latency. Integrated Twilio SMS services for instant notifications and implemented local data logging via caching to ensure offline reliability during critical events."
+      "description": "Built an iOS app that fuses on-device sensors with a disaster-dataset API to detect hazardous events and trigger emergency alerts in under 5s, using Twilio SMS and local caching for reliable operation during connectivity loss."
     },
     {
-      "name": "KareBear: Full-Stack Interactive App",
+      "name": "KareBear",
       "image": "karebear.png",
-      "awards": "ElleHacks 2nd Place",
-      "technologies": ["React Native", "GCP", "TypeScript"],
-      "description": "Engineered a cross-platform mobile application using React Native and Expo, implementing full-stack integrations with Google Cloud APIs for real-time, low-latency audio and visual processing — earning 2nd place out of 100+ teams. Architected hardware-to-cloud communication pipelines, securely routing physical sensor data to a Gemini-powered conversational backend to generate dynamic, interactive system responses."
+      "awards": "ElleHacks 2nd Place / 100+ teams",
+      "technologies": ["React Native", "TypeScript", "GCP"],
+      "description": "Shipped a cross-platform Expo app with GCP integrations for real-time audio and visual processing, plus a conversational backend, placing 2nd of 100+ teams while delivering the full application under hackathon time constraints."
     }
   ],
   "skills": {
-    "Machine Learning": ["PyTorch", "TensorFlow", "Keras", "Hugging Face", "BERT", "XGBoost", "Scikit-learn", "OpenCV", "CreateML", "CoreML"],
-    "Languages": ["Python", "Swift", "Java", "JavaScript", "TypeScript", "SQL", "C/C++", "Bash", "MATLAB"],
-    "Data & Cloud": ["PostgreSQL", "AWS (S3, EC2)", "Google Cloud (GCP)", "Supabase", "Firebase"],
-    "Software & Architecture": ["FastAPI", "Flask", "React.js", "Node.js", "Spring Boot", "REST APIs", "Microservices", "gRPC"],
-    "Infrastructure & Tools": ["Kubernetes", "Docker", "Podman", "Helm", "Ansible", "Jenkins", "GitLab CI/CD", "Wazuh", "Linux", "Git"]
+    "Languages": ["Python", "C/C++", "Swift", "Java", "JavaScript", "TypeScript", "SQL", "Bash", "MATLAB"],
+    "Software & Systems": ["REST APIs", "FastAPI", "Flask", "React Native", "Node.js", "Spring Boot", "Linux", "eBPF", "Pytest", "JUnit"],
+    "Infrastructure": ["Kubernetes", "OpenShift", "Docker", "Podman", "Helm", "Ansible", "Jenkins", "GitLab CI/CD", "Git"],
+    "Cloud & Data": ["AWS (S3, EC2)", "GCP", "PostgreSQL", "Supabase", "Firebase"],
+    "ML (supporting)": ["PyTorch", "TensorFlow", "Hugging Face", "Scikit-learn"]
   }
 }
